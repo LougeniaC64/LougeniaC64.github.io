@@ -1,0 +1,72 @@
+body {
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    background-color: #dedddd;
+}
+
+main {
+    background-color:  #f7f0ee;
+    padding: 25px;
+    width: 750px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 10px 0px 0px 0px;
+    list-style-type: square;
+    line-height: 1.25;
+}
+
+hr {
+    margin: 0px 0px 10px 0px;
+    border-top: 1.5px dotted rgb(75, 75, 75);
+    border-bottom: none;
+}
+
+.header {
+    font-weight: light;
+    font-size: larger;
+    text-align: center;
+}
+
+.section-header {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.detail-row {
+    display: inline-block;
+    width: 100%;
+}
+
+.detail-name {
+    display: inline-block;
+    width: auto;
+    font-style: italic;
+}
+
+.date-cell {
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+
+.org-cell {
+    float: left;
+    width: 34%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.location-cell {
+    float: left;
+    width: 33%;
+    text-align: right;
+}
+
+.technologies {
+    font-style: italic;    
+}
